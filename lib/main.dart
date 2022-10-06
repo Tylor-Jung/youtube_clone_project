@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get_navigation/get_navigation.dart';
-import 'package:youtube_clone_project/binding/init_binding.dart';
 import 'package:youtube_clone_project/src/app.dart';
+import 'package:youtube_clone_project/src/binding/init_binding.dart';
 
 void main() {
   runApp(MyApp());
