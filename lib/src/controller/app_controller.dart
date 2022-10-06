@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:youtube_clone_project/src/components/youtube_bottom_sheet.dart';
 
 enum RouteName { home, explore, add, subs, library }
 
@@ -18,6 +19,6 @@ class AppController extends GetxService {
   }
 
   void _showBottomSheet() {
-    Get.bottomSheet(Container());
+    Get.bottomSheet(YoutubeBottomSheet());
   }
 }
