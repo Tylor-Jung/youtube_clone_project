@@ -15,6 +15,7 @@ class MyApp extends StatelessWidget {
     return GetMaterialApp(
       title: 'Youtube Clone App',
       theme: ThemeData(
+        appBarTheme: const AppBarTheme(backgroundColor: Colors.white),
         primaryColor: Colors.white,
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
